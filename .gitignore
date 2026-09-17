@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache/build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Logs and generated artifacts
+logs/
+catboost_info/
+
+# OS files
+.DS_Store
+
+# Editor/tooling
+.claude/
