@@ -1,0 +1,5 @@
+[ 2026-09-17 16:12:32,138 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-09-17 16:12:32,149 ] 97 werkzeug - INFO -  * Debugger PIN: 143-150-804
+[ 2026-09-17 16:12:32,174 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Sep/2026 16:12:32] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-09-17 16:13:09,550 ] 61 root - INFO - Dataframe Gathered
+[ 2026-09-17 16:13:10,579 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Sep/2026 16:13:10] "POST /predictdata HTTP/1.1" 200 -

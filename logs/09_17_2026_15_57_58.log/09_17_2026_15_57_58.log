@@ -1,0 +1,8 @@
+[ 2026-09-17 15:57:59,636 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-09-17 15:57:59,660 ] 97 werkzeug - INFO -  * Debugger PIN: 102-890-362
+[ 2026-09-17 15:58:08,833 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Sep/2026 15:58:08] "GET / HTTP/1.1" 200 -
+[ 2026-09-17 15:58:08,852 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Sep/2026 15:58:08] "GET /predict HTTP/1.1" 200 -
+[ 2026-09-17 15:58:08,870 ] 61 root - INFO - Dataframe Gathered
+[ 2026-09-17 15:58:09,330 ] 67 root - INFO - Prediction served: 15.04 kWh for input {'Leading_Current_Reactive_Power_kVarh': 0.0, 'Lagging_Current_Power_Factor': 73.21, 'Leading_Current_Power_Factor': 100.0, 'NSM': 900, 'hours': 0.25, 'WeekStatus': 'Weekday', 'Day_of_week': 'Monday', 'Load_Type': 'Light_Load', 'Month': 'January'}
+[ 2026-09-17 15:58:09,330 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Sep/2026 15:58:09] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-17 15:58:09,345 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Sep/2026 15:58:09] "POST /predict HTTP/1.1" 200 -

@@ -1,0 +1,58 @@
+{
+  "default_scenario": {
+    "shiftable_fraction": 0.4,
+    "total_energy_kWh": 959636.71,
+    "shifted_energy_kWh": 163654.668,
+    "cost_before": 7959034.49,
+    "cost_after": 6977106.482,
+    "savings_amount": 981928.0080000004,
+    "savings_pct": 12.33727544759013
+  },
+  "scenarios": [
+    {
+      "shiftable_fraction": 0.1,
+      "total_energy_kWh": 959636.71,
+      "shifted_energy_kWh": 40913.667,
+      "cost_before": 7959034.49,
+      "cost_after": 7713552.488,
+      "savings_amount": 245482.00200000033,
+      "savings_pct": 3.0843188618975352
+    },
+    {
+      "shiftable_fraction": 0.2,
+      "total_energy_kWh": 959636.71,
+      "shifted_energy_kWh": 81827.334,
+      "cost_before": 7959034.49,
+      "cost_after": 7468070.486,
+      "savings_amount": 490964.00400000066,
+      "savings_pct": 6.1686377237950705
+    },
+    {
+      "shiftable_fraction": 0.3,
+      "total_energy_kWh": 959636.71,
+      "shifted_energy_kWh": 122741.00099999999,
+      "cost_before": 7959034.49,
+      "cost_after": 7222588.483999999,
+      "savings_amount": 736446.006000001,
+      "savings_pct": 9.252956585692607
+    },
+    {
+      "shiftable_fraction": 0.4,
+      "total_energy_kWh": 959636.71,
+      "shifted_energy_kWh": 163654.668,
+      "cost_before": 7959034.49,
+      "cost_after": 6977106.482,
+      "savings_amount": 981928.0080000004,
+      "savings_pct": 12.33727544759013
+    },
+    {
+      "shiftable_fraction": 0.5,
+      "total_energy_kWh": 959636.71,
+      "shifted_energy_kWh": 204568.335,
+      "cost_before": 7959034.49,
+      "cost_after": 6731624.48,
+      "savings_amount": 1227410.0099999998,
+      "savings_pct": 15.421594309487654
+    }
+  ]
+}

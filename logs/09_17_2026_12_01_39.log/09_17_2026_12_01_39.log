@@ -1,0 +1,3 @@
+[ 2026-09-17 12:01:39,041 ] 65 root - INFO - Numerical Columns       : ['Leading_Current_Reactive_Power_kVarh', 'Lagging_Current_Power_Factor', 'Leading_Current_Power_Factor', 'NSM', 'hours']
+[ 2026-09-17 12:01:39,041 ] 66 root - INFO - Ordinal Columns         : ['Load_Type']
+[ 2026-09-17 12:01:39,041 ] 67 root - INFO - One-Hot Encoded Columns : ['WeekStatus', 'Day_of_week', 'Month']

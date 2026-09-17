@@ -1,0 +1,8 @@
+[ 2026-09-17 16:24:02,449 ] 140 root - INFO - Load-shift simulation (40% of peak load shifted): 12.34% projected cost reduction
+[ 2026-09-17 16:24:02,454 ] 140 root - INFO - Load-shift simulation (10% of peak load shifted): 3.08% projected cost reduction
+[ 2026-09-17 16:24:02,457 ] 140 root - INFO - Load-shift simulation (20% of peak load shifted): 6.17% projected cost reduction
+[ 2026-09-17 16:24:02,460 ] 140 root - INFO - Load-shift simulation (30% of peak load shifted): 9.25% projected cost reduction
+[ 2026-09-17 16:24:02,463 ] 140 root - INFO - Load-shift simulation (40% of peak load shifted): 12.34% projected cost reduction
+[ 2026-09-17 16:24:02,466 ] 140 root - INFO - Load-shift simulation (50% of peak load shifted): 15.42% projected cost reduction
+[ 2026-09-17 16:24:02,467 ] 163 root - INFO - Load-shift report saved to artifacts/load_shift_report.csv
+[ 2026-09-17 16:24:02,467 ] 164 root - INFO - Load-shift scenarios saved to artifacts/load_shift_scenarios.csv

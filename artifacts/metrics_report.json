@@ -1,0 +1,11 @@
+{
+  "best_candidate_model": "CatBoosting Regressor",
+  "best_candidate_r2": 0.8855422457761892,
+  "final_model": "VotingRegressor(CatBoost + XGBoost + KNN)",
+  "test_mae": 5.818084927709108,
+  "test_rmse": 11.411326722155202,
+  "test_r2": 0.8854439881847916,
+  "test_mape_pct": 19.939159500335972,
+  "baseline_mape_pct": 100.05582012849703,
+  "mape_improvement_pct": 80.07196435476813
+}

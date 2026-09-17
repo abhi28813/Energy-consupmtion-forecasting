@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: mlproject_regression
+Version: 0.0.1
+Author: Abhijith k
+Author-email: abhijithkraj28@gmail.com
+Requires-Dist: setuptools
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: ipykernel
+Requires-Dist: catboost
+Requires-Dist: xgboost
+Requires-Dist: dill
+Requires-Dist: flask
+Requires-Dist: flask_cors
+Requires-Dist: lime
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

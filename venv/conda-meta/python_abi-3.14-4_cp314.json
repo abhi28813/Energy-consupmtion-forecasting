@@ -1,0 +1,31 @@
+{
+  "build": "4_cp314",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [
+    "python 3.14.* *_cp314"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/python_abi-3.14-4_cp314",
+  "files": [],
+  "fn": "python_abi-3.14-4_cp314.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/python_abi-3.14-4_cp314",
+    "type": 1
+  },
+  "md5": "d680cd23058d367aef8844bb40abb47c",
+  "name": "python_abi",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/python_abi-3.14-4_cp314.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4bd5230b703c07d2d840f75b3a915b19bfc39cd610552d1528c36f2891c64dd5",
+  "size": 5576,
+  "subdir": "osx-arm64",
+  "timestamp": 1782805883000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/python_abi-3.14-4_cp314.conda",
+  "version": "3.14"
+}

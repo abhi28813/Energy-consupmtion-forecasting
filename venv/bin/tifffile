@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/Users/abhijithk/Documents/data project/Core 1/Energy Consumption Forecasting/venv/bin/python3.14" "$0" "$@"
+' '''
+import sys
+from tifffile import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Energy Consumption Forecasting</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --bg-alt: #111827;
+    --card: #1e293b;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --accent: #38bdf8;
+    --accent-2: #34d399;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: radial-gradient(circle at top, var(--bg-alt), var(--bg) 70%);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--text);
+  }
+  .card {
+    max-width: 640px;
+    width: 100%;
+    background: var(--card);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 20px;
+    padding: 48px 40px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  }
+  .badge {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: clamp(24px, 4vw, 32px);
+    margin: 0 0 12px;
+    line-height: 1.3;
+  }
+  p.lede {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 32px;
+  }
+  .stats {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .stat {
+    background: rgba(148, 163, 184, 0.06);
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    border-radius: 12px;
+    padding: 14px 18px;
+    min-width: 120px;
+  }
+  .stat b {
+    display: block;
+    font-size: 20px;
+    color: var(--accent-2);
+  }
+  .stat span {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .cta {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    color: #06212f;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(56, 189, 248, 0.35);
+  }
+  .footnote {
+    margin-top: 28px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">Steel Industry &middot; Energy Analytics</span>
+    <h1>Energy Consumption Forecasting</h1>
+    <p class="lede">
+      Predict a facility's electrical energy usage (kWh) from its power-quality
+      readings and the time of day, using a model trained on historical steel
+      plant data.
+    </p>
+    <div class="stats">
+      <div class="stat"><b>35,040</b><span>Training Readings</span></div>
+      <div class="stat"><b>15-min</b><span>Reading Interval</span></div>
+      <div class="stat"><b>CatBoost + XGB + KNN</b><span>Ensemble Model</span></div>
+    </div>
+    <a class="cta" href="{{ url_for('predict_datapoint') }}">Forecast Usage &rarr;</a>
+    <p class="footnote">Enter power-factor and reactive-power readings for a given moment to get an instant usage estimate.</p>
+  </div>
+</body>
+</html>
